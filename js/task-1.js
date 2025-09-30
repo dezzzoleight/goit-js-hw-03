@@ -1,6 +1,6 @@
 function slugify(title) {
   return title.toLowerCase().split(' ').join('-');
-  // Або return title.toLowerCase().replaceAll(' ', '-');
+
 }
 
 console.log(slugify('Arrays for beginners')); // "arrays-for-beginners"
